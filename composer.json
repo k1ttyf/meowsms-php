@@ -1,0 +1,23 @@
+{
+    "name": "k1ttyf/meowsms",
+    "description": "Простая библиотека для использования API @MeowSMSBot в PHP",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "k1ttyf",
+            "email": "k1ttyf@riseup.net",
+            "homepage": "https://github.com/k1ttyf"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.0",
+        "guzzlehttp/guzzle": ">=7.4.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "k1ttyf\\meowsms\\": "src/"
+        }
+    }
+}
