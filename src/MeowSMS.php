@@ -51,7 +51,7 @@ class MeowSMS
     /**
      * @throws GuzzleException
      */
-    private function sendRequest(string $action, array $args): array
+    private function sendRequest(string $action, array $args = []): array
     {
         $args["api_key"] = $this->api_key;
         $url = sprintf(
