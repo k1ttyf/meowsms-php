@@ -155,7 +155,7 @@ require_once "vendor/autoload.php";
 
 $meow = new k1ttyf\meowsms\MeowSMS("your api_key");
 
-$result = $meow->getServices();
+$result = $meow->getCountrys();
 
 var_dump($result);
 ```
