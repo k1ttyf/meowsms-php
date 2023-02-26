@@ -116,9 +116,9 @@ class MeowSMS
     /**
      * @throws GuzzleException
      */
-    public function getCountries(): array
+    public function getCountrys(): array
     {
-        return $this->sendRequest("getCountries");
+        return $this->sendRequest("getCountrys");
     }
 
 }
