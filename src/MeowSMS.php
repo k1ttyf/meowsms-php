@@ -84,6 +84,14 @@ class MeowSMS
     /**
      * @throws GuzzleException
      */
+    public function getSMSStatus(array $args): array
+    {
+        return $this->sendRequest("getSMSStatus", $args);
+    }
+
+    /**
+     * @throws GuzzleException
+     */
     public function cuttLink(array $args): array
     {
         return $this->sendRequest("cuttLink", $args);
